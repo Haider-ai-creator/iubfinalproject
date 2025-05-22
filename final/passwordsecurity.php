@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Password Security - Cybersecurity Awareness Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004080;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background-color: #0073e6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+.audiences ul {
+  margin-top: 1rem;
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+footer {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+</style>
+
+
+<body>
+  <header>
+    <h1>Cybersecurity Awareness Game</h1>
+    <nav>
+        <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="module2.php">Modules</a></li>
+        <li><a href="teacherdashboard.php">Teacher dashboard</a></li>
+        <li><a href="studentquizsection.php">Student Quiz Section</a></li>
+        <li><a href="Gamification.php">Gamification</a></li>
+        <li><a href="accessibility.php">Accessibility</a></li>
+        <li><a href="feedback.php">Feedback</a></li>
+        <li><a href="About.php">About</a></li>
+        <li><a href="registration.php">Register your identity</a></li>
+         <li><a href="registered.php">Registered</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Password Security</h2>
+
+    <section>
+      <h3>Why Password Security Matters</h3>
+      <p>Weak or reused passwords are one of the most common causes of account breaches. Cybercriminals use password-guessing tools and leaked data to gain access to your online accounts.</p>
+    </section>
+
+    <section>
+      <h3>Interactive Scenario (Mock-up)</h3>
+      <p>You use the same password — "Password123" — for your email, banking, and social media accounts. One of these services gets hacked.</p>
+      <p><strong>What could happen?</strong></p>
+      <ul>
+        <li>A. Nothing, since your accounts are unrelated</li>
+        <li>B. Only the hacked account is affected</li>
+        <li><strong>C. All your accounts are at risk due to password reuse</strong></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Quiz</h3>
+      <p><em>[Quiz functionality will be added later]</em></p>
+      <ul>
+        <li>1. What makes a password strong?</li>
+        <li>2. Why is using the same password across multiple sites dangerous?</li>
+        <li>3. How often should you update your passwords?</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Best Practices</h3>
+      <ul>
+        <li>Use a unique password for each account.</li>
+        <li>Include uppercase letters, lowercase letters, numbers, and symbols.</li>
+        <li>Use a password manager to keep track of your passwords securely.</li>
+        <li>Avoid personal information in passwords (e.g., names or birthdates).</li>
+      </ul>
+    </section>
+
+<a class="btn" href="module2.php">← Back to Home</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cybersecurity Awareness Game Project By Ali Haider From Iub </p>
+  </footer>
+</body>
+</html>
